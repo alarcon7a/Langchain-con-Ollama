@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "local-chatbot"
+version = "0.1.0"
+description = "A chatbot with a local database on chroma, local LLM with llama 3 and Ollama and Langchain as a framework"
+authors = ["Alarcon7a"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+langchain = "^0.1.17"
+langchain-community = "^0.0.37"
+PyMuPDF = "^1.24.2"
+chromadb = "^0.5.0"
+fastembed = "^0.2.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
